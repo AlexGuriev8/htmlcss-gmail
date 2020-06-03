@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body {
+    background-image: url(https://1.bp.blogspot.com/-OjNKXrMsiEs/XjVcGB6TARI/AAAAAAAABh4/mhQqT7KUPh4sBo1x1A28RBMPjgWUKIeVACPcBGAYYCw/s1600/Crumpled-Paper-Design-Background.jpg);
+    background-size: cover;
+}
+.cont{
+  margin: 20px;
+}
+header, main, .serch, .unread_text {
+    padding-bottom: 7px;
+}
+h1{
+  display: inline-block;
+  font-family: verdana sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+  vertical-align: middle;
+}
+#cerchio{
+    display: inline-block;
+    background-color: orange;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.Testo_destra, .Testo_sinistra{
+  display: inline-block;
+}
+.Messaggio_nletto{
+  border-color: white;
+  border: 1px solid black;
+  background-color: #ccddfc;
+  text-align: center;
+  }
+  .Messaggio_letto{
+    border-color: black;
+    border: 1px solid black;
+      background-color: #ccc;
+      text-align: center;
+    }
+  main{
+    text-align: center;
+    width: 350px;
+  }
+  .gmail {
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 5px;
+}
